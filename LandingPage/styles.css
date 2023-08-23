@@ -6,6 +6,29 @@
     font-family: 'Inter',Inter, helvetica, arial, system-ui;
 }
 
+.header {
+    background-color: #2A292E;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-group {
+    width: 1024px;
+    margin: 0 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+}
+
+.menu a {
+    color: #DDE5E7;
+}
 
 h1 {
     color: red;
