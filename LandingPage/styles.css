@@ -32,5 +32,42 @@
 }
 
 h1 {
-    color: red;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 86px;
+}
+
+h2 {
+    font-size: 48px;
+
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    font-size: 18px;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(./Asset/herobg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    
+    align-items: center;
+
+}
+
+.hero-content {
+
+}
+
+.hero img {
+    width: 80%;
+    position: relative;
+    left: -38%;
+    bottom: -22%;
 }
