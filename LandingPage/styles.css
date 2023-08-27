@@ -174,4 +174,24 @@ button {
     justify-content: space-between;
     align-items: center;
     color: white;
+    gap: 32px;
+}
+
+.cta button {
+    background: #980413;
+    border: 1px solid #FFF;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 64px;
+    background: #2A292E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
 }
