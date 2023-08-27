@@ -141,13 +141,16 @@ button {
 .quote {
     padding: 64px 24px;
     background: #D8D7DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote p {
     font-size: 48px;
     font-weight: 300;
     text-align: center;
-    max-width: 1024px;
+    
 }
 
 #author {
