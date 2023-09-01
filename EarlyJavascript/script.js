@@ -23,3 +23,24 @@ function favoriteAnimal(animal) {
 }
 
 console.log(favoriteAnimal('goat'))
+
+function add7(number) {
+    return number + 7;
+}
+
+function multiply(a,b) {
+    return a * b;
+}
+
+function capitalize(text) {
+    return text.toUpperCase();
+}
+
+function lastLetter(text) {
+    return text.charAt(text.length - 1)
+}
+
+console.log("7+7= "+ add7(7));
+console.log("5x2= "+ multiply(5,2) );
+console.log("allcaps of Turtle = "+ capitalize('Turtle'));
+console.log("Last Letter of Turtle = "+ lastLetter('Turtle'));
