@@ -16,3 +16,10 @@ console.log(9*a);
 
 let b = 7*a;
 console.log(b)
+
+
+function favoriteAnimal(animal) {
+    return animal + " is my favorite animal!"
+}
+
+console.log(favoriteAnimal('goat'))
