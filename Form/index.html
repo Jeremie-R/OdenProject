@@ -23,7 +23,7 @@
 
         <div class="input_row">
             <label for="email">Email:</label>
-            <input type="text" id="enail" name="email" class="text_input">
+            <input type="text" id="enail" name="email" class="text_input" required>
 
             <label for="phone_number">Phone number:</label>
             <input type="text" id="phone" name="phone" class="text_input">
@@ -31,13 +31,15 @@
 
         <div class="input_row">
             <label for="first_name">password:</label>
-            <input type="text" id="password" name="password" class="text_input">
+            <input type="text" id="password" name="password" class="text_input" minlength="3" maxlength="20" required>
 
             <label for="last_name">repeat password:</label>
-            <input type="text" id="password" name="password" class="text_input">
+            <input type="text" id="password" name="password" class="text_input" required>
         </div>
 
         </div>
+
+        <button type="submit" id="send">Send</button>
        
 
     </div>
