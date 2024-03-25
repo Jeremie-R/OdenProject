@@ -14,22 +14,27 @@
       <form>
         <div class="inputArea">
           <div class="input_row">
+            <div class="input">
             <label for="first_name">First Name:</label>
             <input
               type="text"
               id="first_name"
               name="first_name"
               class="text_input" />
+            </div>
 
+            <div class="input">
             <label for="last_name">Last Name:</label>
             <input
               type="text"
               id="last_name"
               name="last_name"
               class="text_input" />
+            </div>
           </div>
 
           <div class="input_row">
+            <div class="input">
             <label for="email">Email:</label>
             <input
               type="email"
@@ -37,13 +42,16 @@
               name="email"
               class="text_input"
               required />
-
+            </div>
+            <div class="input">
             <label for="phone_number">Phone number:</label>
             <input type="text" id="phone" name="phone" class="text_input" />
+        </div>
           </div>
 
           <div class="input_row">
-            <label for="first_name">password:</label>
+            <div class="input">
+            <label for="password">password:</label>
             <input
               type="text"
               id="password"
@@ -52,14 +60,15 @@
               minlength="3"
               maxlength="20"
               required />
-
-            <label for="last_name">repeat password:</label>
+            </div>
+            <div class="input">
+            <label for="passwordr">repeat password:</label>
             <input
               type="text"
               id="passwordRepeat"
               name="password"
               class="text_input"
-              required />
+              required /></div>
           </div>
         </div>
 
