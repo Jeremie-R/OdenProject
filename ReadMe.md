@@ -7,4 +7,5 @@ Project included:
 - [Oden recipes](https://jeremie-r.github.io/OdenProject_SimpleWebsite/OdenRecipes/index.html)
 - [Thor's Landing page](https://jeremie-r.github.io/OdenProject_SimpleWebsite/LandingPage/index.html)
 - [Simple Javascript](https://jeremie-r.github.io/OdenProject_SimpleWebsite/EarlyJavascript/index.html)
+- [Simple form] (https://jeremie-r.github.io/OdenProject_SimpleWebsite/Form/index.html)
 
