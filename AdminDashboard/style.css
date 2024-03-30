@@ -186,4 +186,60 @@ h2 {
     border: 1px solid var(--midGray);
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    
+}
+
+.purple {
+    border: 1px solid #DDC4F7;
+    background-color: #F9F5FD;
+}
+
+.blue {
+    border: 1px solid #C1C6EE;
+    background-color: #F9F5FD;
+}
+
+.green {
+    border: 1px solid #C1EEC8;
+    background-color: #F5FDF9;
+}
+
+.cardtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.small {
+    flex-direction: column;
+}
+
+.number {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.bigchart {
+    justify-content: space-between;
+}
+
+.smallCard {
+    justify-content: space-between;
+}
+
+.bigchart img{
+    margin-bottom: -28px;
+margin-right: -18px;
+margin-left: -18px;
+}
+
+.numberblue{
+    color: #4E37BA;
+}
+
+.smallCard img {
+    margin-bottom: -28px;
+    margin-right: -18px;
+    margin-left: -18px
 }
