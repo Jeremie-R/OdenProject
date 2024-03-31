@@ -8,4 +8,8 @@ Project included:
 - [Thor's Landing page](https://jeremie-r.github.io/OdenProject_SimpleWebsite/LandingPage/index.html)
 - [Simple Javascript](https://jeremie-r.github.io/OdenProject_SimpleWebsite/EarlyJavascript/index.html)
 - [Simple form](https://jeremie-r.github.io/OdenProject_SimpleWebsite/Form/index.html)
+- [admin dashboard](https://jeremie-r.github.io/OdenProject_SimpleWebsite/AdminDashboard/index.html)
 
+---
+
+[![admin dashboard image](/assets/Screenshot.png)](https://jeremie-r.github.io/OdenProject_SimpleWebsite/AdminDashboard/index.html)
