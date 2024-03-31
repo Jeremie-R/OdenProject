@@ -53,33 +53,33 @@
                 <div class="grid">
                     <div class="card purple" id="bestProduct">
                         
-                        <div class="cardtitle small">
+                        <div class="cardtitle small" id="productTitle">
                         <h3>Best product</h3>
                         <p class="time">last 12 months</p>
                         </div>
 
                         <div class="line">
                             <div class="title">Alpha</div>
-                            <div class="number">84 k$</div>
-                            <div class="bar" id="Aplha"></div>
+                            <div class="productNumber">84 k$</div>
+                            <div class="bar" id="alpha"></div>
                         </div>
 
                         <div class="line">
                             <div class="title">Omega</div>
-                            <div class="number">56 k$</div>
-                            <div class="bar" id="Omega"></div>
+                            <div class="productNumber">56 k$</div>
+                            <div class="bar" id="omega"></div>
                         </div>
 
                         <div class="line">
                             <div class="title">Delta</div>
-                            <div class="number">32 k$</div>
-                            <div class="bar" id="Delta"></div>
+                            <div class="productNumber">32 k$</div>
+                            <div class="bar" id="delta"></div>
                         </div>
 
                         <div class="line">
                             <div class="title">Other</div>
-                            <div class="number purple">48 k$</div>
-                            <div class="bar" id="Other"></div>
+                            <div class="productNumber">48 k$</div>
+                            <div class="bar" id="other"></div>
                         </div>
 
                     </div>
@@ -99,7 +99,7 @@
                             <h3>Users</h3>
                             <p class="time">last month</p>
                         </div>
-                            <p class="number">8 K$</p>
+                            <p class="number numbergreen">8 K$</p>
                             <img src="./Assets/UserChart.svg" alt="">
                     </div>
 
@@ -111,31 +111,31 @@
                             </div>
                             <div class="salesTitle">
                                 <h3 class="grey">change yoy</h3>
-                                <p class="number">+ 26%</p>
+                                <p class="number" id="change">+ 26%</p>
                             </div>
                             <p class="time">last 12 months</p>
                         </div>
                         <div class="divider"></div>
-                        <img src="./Assets/BarChart.svg" alt="">
+                        <img src="./Assets/BarChart.svg" id="barChart" alt="">
                     </div>
 
                     <div class="card" id="country">
                         <div class="cardtitle">
                             <h3>Sales by country</h3>
                             <p class="time">last 12 months</p>
-
+                            </div>
                             <div class="doughnutcardcontent">
 
-                                <li>
-                                    <ul class="blue">France <br> <b>30 %</b></ul>
-                                    <ul class="blue">Sweden <br> <b>20 %</b></ul>
-                                    <ul class="blue">Germany <br> <b>10 %</b></ul>
-                                </li>
+                                <ul>
+                                    <li class="france">France <br> <b>30 %</b></li>
+                                    <li class="sweden">Sweden <br> <b>20 %</b></li>
+                                    <li class="germany">Germany <br> <b>10 %</b></li>
+                                </ul>
 
-                                <img src="./Assets/doughtnut.svg" alt="">
+                                <img src="./Assets/doughtnut.svg" id="doughtnut">
                             </div>
 
-                        </div>
+                        
                     </div>
                     <div class="card smallCard" id="france">
                         <div class="cardtitle small">
@@ -158,6 +158,11 @@
             <div class="sidepanel">
                 <h2>News</h2>
                 <div class="newsCard">
+                    <div class="news">
+                        <h3>News title of small story</h3>
+                        <p>Lorel ipsum dolor si amet consectrus i do not know what to twrite but here si the text</p>
+                    </div>
+                    <div class="divider"></div>
                     <div class="news">
                         <h3>News title of small story</h3>
                         <p>Lorel ipsum dolor si amet consectrus i do not know what to twrite but here si the text</p>

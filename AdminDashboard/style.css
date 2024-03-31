@@ -10,7 +10,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
-    border: 1px dashed purple;
+    
     color: var(--black);
 }
 
@@ -90,7 +90,7 @@ body {
 .newsCard {
     display: flex;
     flex-direction: column;
-    height: 320px;
+    height: 290px;
 }
 
 .news { 
@@ -103,9 +103,7 @@ body {
     gap: 24px;
 }
 
-.learnCard {
-    height: 100px;
-}
+
 
 /* the other stuff */
 
@@ -238,8 +236,198 @@ margin-left: -18px;
     color: #4E37BA;
 }
 
+.numbergreen {
+    color: #427A0A;
+}
+
 .smallCard img {
     margin-bottom: -28px;
     margin-right: -18px;
     margin-left: -18px
 }
+
+.productNumber {
+    font-weight: 800;
+}
+
+.time {
+    font-weight: 300;
+    color: var(--darkGray);
+}
+
+#productTitle {
+    height: 100%;
+    justify-content: flex-start;
+}
+
+#bestProduct {
+    gap: 48px;
+    padding-bottom: 48px;
+}
+
+.bar {
+    height: 24px;
+    background-color: #9037BA;
+    border-radius: 0px 12px 12px 0px;
+    margin-left: -25px;
+}
+
+#alpha {
+    width: 100%;
+}
+
+#omega {
+    width: 70%;
+}
+
+#delta {
+    width: 40%;
+}
+
+#other {
+    width: 60%;
+    background-color: #D8CFDD;
+}
+
+.cardhead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grey {
+    color: var(--darkGray);
+}
+
+#change {
+    color: #8BC94C;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--midGray);
+    margin: 4px 0px;
+}
+
+#barChart {
+    width: 100%;
+    max-height: 120px;
+}
+
+
+ /* way to mcuh and very dirty css this tells a story of miss planned process lol */
+
+ #country {
+    flex-direction: column;
+ }
+
+.doughnutcardcontent {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: end;
+}
+
+#doughnut {
+    width: 100px;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+li {
+    list-style-type: none;
+}
+
+.france {
+    color: #376BBA;
+}
+.france b {
+    color: #376BBA;
+}
+
+.sweden {
+    color: #C39E12;
+}
+
+.sweden b {
+    color: #C39E12;
+}
+
+.germany {
+    color: #9037BA;
+}
+
+.germany b {
+    color: #9037BA;
+}
+
+.newsCard {
+    padding: 24px;
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 32px;
+    border-radius: 16px;
+    padding: 24px 16px;
+    border: 1px solid var(--midGray);
+
+}
+
+.news {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.news p {
+  
+  color: var(--darkGray);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+
+.learnCard {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 24px 16px;
+    border: 1px solid var(--midGray);
+    
+}
+
+.learnCard p {
+    color: var(--darkGray);
+    overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+
+
+.community {
+   
+    padding-left: 90px;
+    position: relative;
+    overflow: hidden;
+}
+
+.community img {
+    position: absolute;
+    left: -1px;
+    bottom: -1px;
+    width: 75px;
+}
+
